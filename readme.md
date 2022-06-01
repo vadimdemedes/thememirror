@@ -1,4 +1,4 @@
-# ThemeMirror
+# ThemeMirror [![test](https://github.com/vadimdemedes/thememirror/actions/workflows/test.yml/badge.svg)](https://github.com/vadimdemedes/thememirror/actions/workflows/test.yml)
 
 > Beautiful themes for [CodeMirror](https://codemirror.net/6/)
 
@@ -26,13 +26,13 @@ const view = new EditorView({
 });
 ```
 
-## Available Themes
+## Themes
 
 ### Amy
 
 <img src="screenshots/amy.jpg" width="364">
 
-Author: William D. Neumann
+_Author: William D. Neumann_
 
 ```js
 import {amy} from 'thememirror';
@@ -42,7 +42,7 @@ import {amy} from 'thememirror';
 
 <img src="screenshots/ayu-light.jpg" width="364">
 
-Author: Konstantin Pschera
+_Author: Konstantin Pschera_
 
 ```js
 import {ayuLight} from 'thememirror';
@@ -52,7 +52,7 @@ import {ayuLight} from 'thememirror';
 
 <img src="screenshots/barf.jpg" width="364">
 
-Author: unknown
+_Author: unknown_
 
 ```js
 import {barf} from 'thememirror';
@@ -62,7 +62,7 @@ import {barf} from 'thememirror';
 
 <img src="screenshots/bespin.jpg" width="364">
 
-Author: Michael Diolosa
+_Author: Michael Diolosa_
 
 ```js
 import {bespin} from 'thememirror';
@@ -72,7 +72,7 @@ import {bespin} from 'thememirror';
 
 <img src="screenshots/birds-of-paradise.jpg" width="364">
 
-Author: Joe Bergantine
+_Author: Joe Bergantine_
 
 ```js
 import {birdsOfParadise} from 'thememirror';
@@ -82,7 +82,7 @@ import {birdsOfParadise} from 'thememirror';
 
 <img src="screenshots/boys-and-girls.jpg" width="364">
 
-Author: unknown
+_Author: unknown_
 
 ```js
 import {boysAndGirls} from 'thememirror';
@@ -92,7 +92,7 @@ import {boysAndGirls} from 'thememirror';
 
 <img src="screenshots/clouds.jpg" width="364">
 
-Author: Fred LeBlanc
+_Author: Fred LeBlanc_
 
 ```js
 import {clouds} from 'thememirror';
@@ -102,7 +102,7 @@ import {clouds} from 'thememirror';
 
 <img src="screenshots/cobalt.jpg" width="364">
 
-Author: Jacob Rus
+_Author: Jacob Rus_
 
 ```js
 import {cobalt} from 'thememirror';
@@ -112,7 +112,7 @@ import {cobalt} from 'thememirror';
 
 <img src="screenshots/cool-glow.jpg" width="364">
 
-Author: unknown
+_Author: unknown_
 
 ```js
 import {coolGlow} from 'thememirror';
@@ -122,7 +122,7 @@ import {coolGlow} from 'thememirror';
 
 <img src="screenshots/dracula.jpg" width="364">
 
-Author: Zeno Rocha
+_Author: Zeno Rocha_
 
 ```js
 import {dracula} from 'thememirror';
@@ -132,7 +132,7 @@ import {dracula} from 'thememirror';
 
 <img src="screenshots/espresso.jpg" width="364">
 
-Author: TextMate
+_Author: TextMate_
 
 ```js
 import {espresso} from 'thememirror';
@@ -142,7 +142,7 @@ import {espresso} from 'thememirror';
 
 <img src="screenshots/noctis-lilac.jpg" width="364">
 
-Author: Liviu Schera
+_Author: Liviu Schera_
 
 ```js
 import {noctisLilac} from 'thememirror';
@@ -152,7 +152,7 @@ import {noctisLilac} from 'thememirror';
 
 <img src="screenshots/rose-pine-dawn.jpg" width="364">
 
-Author: Rosé Pine
+_Author: Rosé Pine_
 
 ```js
 import {rosePineDawn} from 'thememirror';
@@ -162,7 +162,7 @@ import {rosePineDawn} from 'thememirror';
 
 <img src="screenshots/smoothy.jpg" width="364">
 
-Author: Kenneth Reitz
+_Author: Kenneth Reitz_
 
 ```js
 import {smoothy} from 'thememirror';
@@ -172,7 +172,7 @@ import {smoothy} from 'thememirror';
 
 <img src="screenshots/solarized-light.jpg" width="364">
 
-Author: Ethan Schoonover
+_Author: Ethan Schoonover_
 
 ```js
 import {solarizedLight} from 'thememirror';
@@ -182,7 +182,7 @@ import {solarizedLight} from 'thememirror';
 
 <img src="screenshots/tomorrow.jpg" width="364">
 
-Author: Chris Kempson
+_Author: Chris Kempson_
 
 ```js
 import {tomorrow} from 'thememirror';
