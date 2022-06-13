@@ -1,3 +1,4 @@
+export {default as createTheme} from './create-theme.js';
 export * from './themes/amy.js';
 export * from './themes/ayu-light.js';
 export * from './themes/barf.js';

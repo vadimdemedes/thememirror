@@ -7,21 +7,58 @@ import {
 } from '@codemirror/language';
 
 interface Options {
+	/**
+	 * Theme variant. Can be 'light' or 'dark'.
+	 */
 	variant: Variant;
+
+	/**
+	 * Settings to customize the look of the editor, like background, gutter, selection and others.
+	 */
 	settings: Settings;
+
+	/**
+	 * Syntax highlighting styles.
+	 */
 	styles: TagStyle[];
 }
 
 type Variant = 'light' | 'dark';
 
 interface Settings {
+	/**
+	 * Editor background.
+	 */
 	background: string;
+
+	/**
+	 * Default text color.
+	 */
 	foreground: string;
+
+	/**
+	 * Caret color.
+	 */
 	caret: string;
-	selectionBackground: string;
-	selectionForeground?: string;
+
+	/**
+	 * Selection background.
+	 */
+	selection: string;
+
+	/**
+	 * Background of highlighted lines.
+	 */
 	lineHighlight: string;
+
+	/**
+	 * Gutter background.
+	 */
 	gutterBackground: string;
+
+	/**
+	 * Text color inside gutter.
+	 */
 	gutterForeground: string;
 }
 
@@ -41,8 +78,7 @@ const createTheme = ({variant, settings, styles}: Options): Extension => {
 			},
 			'&.cm-focused .cm-selectionBackgroundm .cm-selectionBackground, .cm-content ::selection':
 				{
-					backgroundColor: settings.selectionBackground,
-					color: settings.selectionForeground ?? null,
+					backgroundColor: settings.selection,
 				},
 			'.cm-activeLine': {
 				backgroundColor: settings.lineHighlight,

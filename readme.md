@@ -187,3 +187,102 @@ _Author: Chris Kempson_
 ```js
 import {tomorrow} from 'thememirror';
 ```
+
+## API
+
+### createTheme(options)
+
+Create your own theme.
+
+#### options
+
+##### variant
+
+Type: `string`
+
+Theme variant. Can be `'light'` or `'dark'`. Determines which styles CodeMirror will apply by default.
+
+##### settings
+
+###### background
+
+Type: `string`
+
+Editor background.
+
+###### foreground
+
+Type: `string`
+
+Default text color.
+
+###### caret
+
+Type: `string`
+
+Caret color.
+
+###### selection
+
+Type: `string`
+
+Selection background.
+
+###### lineHighlight
+
+Type: `string`
+
+Background of highlighted lines.
+
+###### gutterBackground
+
+Type: `string`
+
+Gutter background.
+
+###### gutterForeground
+
+Type: `string`
+
+Text color inside gutter.
+
+##### styles
+
+Type: `TagStyle[]`
+
+Array of styles to customize syntax highlighting. See [`TagStyle`](https://codemirror.net/docs/ref/#language.TagStyle) for a list of available tags to style.
+
+```js
+import {createTheme} from 'thememirror';
+import {EditorView} from '@codemirror/view';
+import {EditorState} from '@codemirror/state';
+
+const myTheme = createTheme({
+	variant: 'dark',
+	settings: {
+		background: '#00254b',
+		foreground: '#fff',
+		caret: '#fff',
+		selectionBackground: '#b36539bf',
+		gutterBackground: '#00254b',
+		gutterForeground: '#ffffff70',
+		lineHighlight: '#00000059',
+	},
+	styles: [
+		{
+			tag: t.comment,
+			color: '#0088ff',
+		},
+	],
+});
+
+const state = EditorState.create({
+	doc: 'my source code',
+	extensions: [myTheme],
+});
+
+const view = new EditorView({
+	parent: document.querySelector('#editor'),
+	state,
+});
+```
