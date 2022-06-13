@@ -8,7 +8,7 @@ export const smoothy = createTheme({
 		background: '#FFFFFF',
 		foreground: '#000000',
 		caret: '#000000',
-		selectionBackground: '#FFFD0054',
+		selection: '#FFFD0054',
 		gutterBackground: '#FFFFFF',
 		gutterForeground: '#00000070',
 		lineHighlight: '#00000008',

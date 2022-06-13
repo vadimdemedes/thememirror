@@ -8,7 +8,7 @@ export const solarizedLight = createTheme({
 		background: '#fef7e5',
 		foreground: '#586E75',
 		caret: '#000000',
-		selectionBackground: '#073642',
+		selection: '#073642',
 		gutterBackground: '#fef7e5',
 		gutterForeground: '#586E7580',
 		lineHighlight: '#EEE8D5',

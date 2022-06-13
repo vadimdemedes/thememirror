@@ -8,7 +8,7 @@ export const birdsOfParadise = createTheme({
 		background: '#3b2627',
 		foreground: '#E6E1C4',
 		caret: '#E6E1C4',
-		selectionBackground: '#16120E',
+		selection: '#16120E',
 		gutterBackground: '#3b2627',
 		gutterForeground: '#E6E1C490',
 		lineHighlight: '#1F1611',

@@ -8,7 +8,7 @@ export const cobalt = createTheme({
 		background: '#00254b',
 		foreground: '#FFFFFF',
 		caret: '#FFFFFF',
-		selectionBackground: '#B36539BF',
+		selection: '#B36539BF',
 		gutterBackground: '#00254b',
 		gutterForeground: '#FFFFFF70',
 		lineHighlight: '#00000059',

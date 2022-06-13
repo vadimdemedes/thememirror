@@ -8,7 +8,7 @@ export const barf = createTheme({
 		background: '#15191EFA',
 		foreground: '#EEF2F7',
 		caret: '#C4C4C4',
-		selectionBackground: '#90B2D557',
+		selection: '#90B2D557',
 		gutterBackground: '#15191EFA',
 		gutterForeground: '#aaaaaa95',
 		lineHighlight: '#57575712',

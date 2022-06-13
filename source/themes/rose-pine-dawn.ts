@@ -8,7 +8,7 @@ export const rosePineDawn = createTheme({
 		background: '#faf4ed',
 		foreground: '#575279',
 		caret: '#575279',
-		selectionBackground: '#6e6a8614',
+		selection: '#6e6a8614',
 		gutterBackground: '#faf4ed',
 		gutterForeground: '#57527970',
 		lineHighlight: '#6e6a860d',

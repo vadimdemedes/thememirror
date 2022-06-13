@@ -8,7 +8,7 @@ export const clouds = createTheme({
 		background: '#fff',
 		foreground: '#000',
 		caret: '#000',
-		selectionBackground: '#BDD5FC',
+		selection: '#BDD5FC',
 		gutterBackground: '#fff',
 		gutterForeground: '#00000070',
 		lineHighlight: '#FFFBD1',

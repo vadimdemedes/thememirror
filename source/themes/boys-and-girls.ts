@@ -8,7 +8,7 @@ export const boysAndGirls = createTheme({
 		background: '#000205',
 		foreground: '#FFFFFF',
 		caret: '#E60065',
-		selectionBackground: '#E60C6559',
+		selection: '#E60C6559',
 		gutterBackground: '#000205',
 		gutterForeground: '#ffffff90',
 		lineHighlight: '#4DD7FC1A',

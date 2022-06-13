@@ -8,7 +8,7 @@ export const espresso = createTheme({
 		background: '#FFFFFF',
 		foreground: '#000000',
 		caret: '#000000',
-		selectionBackground: '#80C7FF',
+		selection: '#80C7FF',
 		gutterBackground: '#FFFFFF',
 		gutterForeground: '#00000070',
 		lineHighlight: '#C1E2F8',

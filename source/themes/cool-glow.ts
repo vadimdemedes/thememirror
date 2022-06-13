@@ -8,7 +8,7 @@ export const coolGlow = createTheme({
 		background: '#060521',
 		foreground: '#E0E0E0',
 		caret: '#FFFFFFA6',
-		selectionBackground: '#122BBB',
+		selection: '#122BBB',
 		gutterBackground: '#060521',
 		gutterForeground: '#E0E0E090',
 		lineHighlight: '#FFFFFF0F',

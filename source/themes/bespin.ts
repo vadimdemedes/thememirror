@@ -8,7 +8,7 @@ export const bespin = createTheme({
 		background: '#2e241d',
 		foreground: '#BAAE9E',
 		caret: '#A7A7A7',
-		selectionBackground: '#DDF0FF33',
+		selection: '#DDF0FF33',
 		gutterBackground: '#28211C',
 		gutterForeground: '#BAAE9E90',
 		lineHighlight: '#FFFFFF08',

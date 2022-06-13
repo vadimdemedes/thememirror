@@ -8,7 +8,7 @@ export const tomorrow = createTheme({
 		background: '#FFFFFF',
 		foreground: '#4D4D4C',
 		caret: '#AEAFAD',
-		selectionBackground: '#D6D6D6',
+		selection: '#D6D6D6',
 		gutterBackground: '#FFFFFF',
 		gutterForeground: '#4D4D4C80',
 		lineHighlight: '#EFEFEF',

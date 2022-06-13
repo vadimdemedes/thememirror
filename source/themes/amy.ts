@@ -8,7 +8,7 @@ export const amy = createTheme({
 		background: '#200020',
 		foreground: '#D0D0FF',
 		caret: '#7070FF',
-		selectionBackground: '#80000080',
+		selection: '#80000080',
 		gutterBackground: '#200020',
 		gutterForeground: '#C080C0',
 		lineHighlight: '#80000040',
