@@ -8,7 +8,7 @@ import {
 
 interface Options {
 	/**
-	 * Theme variant. Can be 'light' or 'dark'.
+	 * Theme variant. Determines which styles CodeMirror will apply by default.
 	 */
 	variant: Variant;
 

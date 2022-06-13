@@ -198,9 +198,9 @@ Create your own theme.
 
 ##### variant
 
-Type: `string`
+Type: `'light' | 'dark'`
 
-Theme variant. Can be `'light'` or `'dark'`. Determines which styles CodeMirror will apply by default.
+Theme variant. Determines which styles CodeMirror will apply by default.
 
 ##### settings
 
