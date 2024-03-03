@@ -19,9 +19,6 @@
 		"dev": "tsc --watch",
 		"test": "prettier --check source && xo"
 	},
-	"files": [
-		"dist"
-	],
 	"keywords": [
 		"codemirror",
 		"theme",
